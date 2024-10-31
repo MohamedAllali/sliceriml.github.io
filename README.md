@@ -1,6 +1,6 @@
-# Welcome
+# Bienvenue
 
-This repository contains the `Slicer In My Language` Project website available at [https://sliceriml.github.io](https://sliceriml.github.io/).
+Ce dépôt contient le site Web du projet `Slicer in My Language` disponible à l’adresse [https://sliceriml.github.io](https://sliceriml.github.io/).
 
-It also contains the demo version of the Slicer [String Finder Tool](https://sliceriml.github.io/strings-finder/).
-More information in this tool can be found [here](https://github.com/mhdiop/SlicerStringsFinder).
+Il contient également la version démo du Slicer [String Finder Tool](https://sliceriml.github.io/strings-finder/).
+Vous trouverez plus d’informations dans cet outil [here](https://github.com/mhdiop/SlicerStringsFinder).
