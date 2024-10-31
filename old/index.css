@@ -1,0 +1,131 @@
+*
+{
+	box-sizing: border-box;
+}
+header, #main, nav, #titre
+{
+	min-width: 720px;
+}
+header
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	background-image: url("images/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center 10%;
+	background-size: cover;
+	opacity: 0.5;
+}
+#header-text
+{
+	position: absolute;
+	left: 0%;
+	padding: 0%;
+	top: 6%;
+	font-size: 300%;
+	width: 100%;
+	text-align: center;
+	/* text-shadow: 2px 2px 8px black; */
+	/* font-family: "Poiret One"; */
+	/* text-transform: uppercase; */
+	/* font-family: "Agency FB"; */
+	/* font-family: "Comic Sans MS"; */
+}
+nav
+{
+	position: absolute;
+	left: 0%;
+	top: 30%;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+}
+nav li, nav ul
+{
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+nav li a
+{
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	height: 100%;
+	width: 20%;
+	padding: 0.5%;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: whitesmoke;
+	/* font-family: "Poiret One"; */
+	/* font-family: "Agency FB"; */
+}
+nav li a:hover
+{
+	border-bottom: solid black 5px;
+}
+#main
+{
+	position: absolute;
+	left: 0%;
+	top: 35%;
+	width: 100%;
+	/* height: fit-content; */
+	text-align: center;
+	padding: 0px 50px;
+	border: none;
+}
+#titre
+{
+	text-align: center;
+	font-family: "Poiret One", "Agency FB";
+}
+#borderTopLeft
+{
+	position: absolute;
+	left: 1%;
+	top: 36%;
+	width: 80px;
+	height: 80px;
+	border-top: 5px solid #6a96d9;
+	border-left: 5px solid #6a96d9;
+}
+
+#borderBottomRight
+{
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+	width: 80px;
+	height: 80px;
+	border-bottom: 5px solid #6a96d9;
+	border-right: 5px solid #6a96d9;
+}
+p
+{
+	text-align: justify;
+	line-height: 1.5;
+	/* font-family: "Comic Sans MS"; */
+}
+.loader {
+	position: fixed;
+	/* top: 36%; */
+	border: 16px solid #fda843; 
+	border-top: 16px solid #6a96d9; 
+	border-right: 16px solid green;
+	border-bottom: 16px solid red;
+	border-radius: 50%;
+	/* background-color: #e1da2f; */
+	width: 100px;
+	height: 100px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
